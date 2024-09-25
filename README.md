@@ -15,7 +15,7 @@ Paso 2:
 
 Ejecuta los siguientes comandos en tu consola (Git Bash, CMD, etc.):
 
-npm install
-composer install
-php artisan key:generate
-php artisan serve
+#npm install,
+#composer install,
+#php artisan key:generate,
+#php artisan serve
