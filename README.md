@@ -2,20 +2,20 @@
 
 
 ## About Laravel
-Hola!! esta es una Aplicacion por el cual se encuentra en desarrollo  la finalidad es crear un stock donde el usuario pueda tener acceso a diferentes modulos como inventario entre otros
+¡Hola! Esta es una aplicación en desarrollo cuyo objetivo es crear un sistema de stock donde el usuario pueda acceder a diferentes módulos, como inventario, entre otros.
 
-Al descargar Realiza lo siguientes pasos:
+Pasos para configurar la aplicación:
+Paso 1:
 
-Paso numero 1:
+Abre la aplicación con un editor de código, como Visual Studio Code o el de tu preferencia.
 
-Abre la aplicacion con un respectivo editor de codigo sea Visual Studio Code o el que deseas:
+Dirígete al archivo llamado .env.example y renómbralo a .env eliminando la parte “example”.
 
-dirigete al archivo que se llama .env.example   borrar el "example"  para que quede de esta manera ".env".
+Paso 2:
 
-Paso numero 2:
+Ejecuta los siguientes comandos en tu consola (Git Bash, CMD, etc.):
 
-corre en tu consola  git o cmd los siguientes comandos:
-#npm install
-#composer install
-#php artisan key:generate
-#php artisan serve
+npm install
+composer install
+php artisan key:generate
+php artisan serve
