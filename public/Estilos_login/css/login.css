@@ -1,0 +1,58 @@
+.background-radial-gradient {
+  background-color: hsl(253, 69%, 29%);
+  background-image: radial-gradient(650px circle at 0% 0%,
+      hsl(276, 44%, 35%) 15%,
+      hsl(276, 44%, 35%) 15%,
+      hsl(276, 44%, 35%) 15%,
+      hsl(276, 44%, 35%) 15%,
+      transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+    hsl(276, 44%, 35%) 15%,
+    hsl(276, 44%, 35%) 15%,
+    hsl(276, 44%, 35%) 15%,
+    hsl(276, 44%, 35%) 15%,
+      transparent 100%);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#radius-shape-1 {
+  height: 30vw;
+  width: 30vw;
+  top: -10vw;
+  left: -15vw;
+  background: radial-gradient(#07006b, #ad1fff);
+  overflow: hidden;
+}
+
+#radius-shape-2 {
+  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+  bottom: -10vw;
+  right: -13vw;
+  width: 40vw;
+  height: 40vw;
+  background: radial-gradient(#07006b, #9513e0);
+  overflow: hidden;
+}
+
+.bg-glass {
+  background-color: hsla(0, 0%, 100%, 0.938) !important;
+  backdrop-filter: saturate(200%) blur(25px);
+}
+
+@media screen and (max-width: 768px) {
+  #radius-shape-1 {
+      height: 20vw;
+      width: 20vw;
+      top: -5vw;
+      left: -10vw;
+  }
+
+  #radius-shape-2 {
+      width: 30vw;
+      height: 30vw;
+      bottom: -5vw;
+      right: -10vw;
+  }
+}
