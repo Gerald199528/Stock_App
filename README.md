@@ -4,7 +4,7 @@
 ## About Laravel
 Hola!! esta es una Aplicacion por el cual se encuentra en desarrollo  la finalidad es crear un stock donde el usuario pueda tener acceso a diferentes modulos como inventario entre otros
 
-Al descargar Realisa lo siguientes pasos:
+Al descargar Realiza lo siguientes pasos:
 
 Paso numero 1:
 
@@ -13,6 +13,7 @@ Abre la aplicacion con un respectivo editor de codigo sea Visual Studio Code o e
 dirigete al archivo que se llama .env.example   borrar el "example"  para que quede de esta manera ".env".
 
 Paso numero 2:
+
 corre en tu consola  git o cmd los siguientes comandos:
 #npm install
 #composer install
