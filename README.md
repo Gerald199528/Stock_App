@@ -8,7 +8,15 @@
 </p>
 
 ## About Laravel
+Hola!! esta es una Aplicacion por el cual se encuentra en desarrollo  la finalidad es crear un stock donde el usuario pueda tener acceso a diferentes modulos como inventario entre otros
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+
+Al descargar la App corre los siguientes comandos:
+
+
+#npm install
+#composer install
+#php artisan key:generate
+#php artisan serve
 
 
